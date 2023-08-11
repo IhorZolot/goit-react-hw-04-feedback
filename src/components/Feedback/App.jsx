@@ -22,6 +22,8 @@ export const App = () => {
       case 'bad':
         setBad(prevBad => prevBad + 1);
         break;
+        default:
+      break;
     }
   };
 
